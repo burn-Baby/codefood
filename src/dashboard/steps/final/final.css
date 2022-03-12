@@ -1,0 +1,68 @@
+.navbar-container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    padding: 29px 0;
+    justify-content: space-between;
+}
+
+.navbar-dashboard {
+    flex-direction: column;
+    align-items: unset;
+    padding: 0 156px;
+}
+
+.sticky-top {
+    background: #ffffff;
+}
+
+.navbar-brand {
+    margin-right: 24px;
+}
+
+.navigation-header {
+    display: flex;
+    align-items: center;
+}
+
+.main-final-container {
+    display: flex;
+    justify-content: center;
+}
+
+.final-container {
+    width: 744px;
+}
+
+.final-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.final-image {
+    margin-top: 96px;
+}
+
+.final-title {
+    margin-top: 70px;
+    margin-bottom: 60px;
+    color: #3D3D3D;
+    font-size: 24px;
+    font-family: "Poppins600";
+}
+
+.final-submit {
+    margin-top: 76px;
+    margin-bottom: 113px;
+}
+
+.final-button {
+    width: 320px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Poppins600";
+    background: #EF5734;
+}
+
+

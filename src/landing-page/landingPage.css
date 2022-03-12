@@ -1,0 +1,129 @@
+img.logo {
+    padding: 29px 0 28px 156px;
+}
+
+img.content-logo {
+    padding: 29px 0 28px 156px;
+}
+
+.login-container {
+    background: #EF5734;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-logo {
+    padding: 242px 0 242px 252px;
+}
+
+.login-form {
+    background: #ffffff;
+    padding: 30px 20px;
+    margin: 30px 136px 30px 0;
+    width: 360px;
+    border-radius: 6px;
+}
+
+.login-form p {
+    color: #3D3D3D;
+}
+
+p.login-title {
+    font-family: "Poppins600";
+    font-size: 16px;
+    padding-bottom: 60px;
+}
+
+label.email-label,
+label.password-label {
+    font-family: "Poppins500";
+    font-size: 16px;
+    padding-bottom: 9px;
+}
+
+.email {
+    padding-bottom: 21px;
+}
+
+.password {
+    padding-bottom: 80px;
+}
+
+.button-login {
+    padding-bottom: 80px;
+}
+
+.button-login button {
+    background-color: #BDBDBD;
+    color: #ffffff;
+    font-family: "Poppins600";
+}
+
+.lewati-login {
+    font-family: "Poppins600";
+    font-size: 16px;
+    text-align: center;
+}
+
+a.lewati-login-text {
+    color: #EF5734;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    img.content-logo-image {
+        width: 90%;
+    }
+
+    .content-logo {
+        padding: 242px 0 242px 90px;
+    }
+
+    .login-form {
+        margin: 30px 32px 30px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    nav {
+        visibility: hidden;
+    }
+
+    img.content-logo-image {
+        display: block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content-logo {
+        padding: 123px 0;
+        height: 310px;
+    }
+
+    .login-container {
+        background: #ffffff;
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .login-form {
+        margin: 0;
+        width: auto;
+    }
+
+    .content-logo {
+        background: #EF5734;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        padding-bottom: 70px;
+    }
+
+    p.login-title {
+        visibility: hidden;
+        padding-bottom: 0;
+    }
+}

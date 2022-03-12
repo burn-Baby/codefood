@@ -1,3 +1,57 @@
+@font-face {
+  font-family: 'Poppins400';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(Poppins400),
+  url(assets/fonts/Poppins/Poppins-Regular.ttf) format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins500';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local(Poppins500),
+  url(assets/fonts/Poppins/Poppins-Medium.ttf) format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins600';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local(Poppins600),
+  url(assets/fonts/Poppins/Poppins-SemiBold.ttf) format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins700';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(Poppins700),
+  url(assets/fonts/Poppins/Poppins-Bold.ttf) format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins200';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local(Poppins700),
+  url(assets/fonts/Poppins/Poppins-ExtraLight.ttf) format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins300';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local(Poppins700),
+  url(assets/fonts/Poppins/Poppins-Light.ttf) format('woff2');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +59,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #E5E5E5;
 }
 
 code {
