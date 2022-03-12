@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/codefood/static/css/main.696aa3f0.css",
+    "main.js": "/codefood/static/js/main.8cc7e443.js",
+    "static/js/787.5e03ebba.chunk.js": "/codefood/static/js/787.5e03ebba.chunk.js",
+    "static/media/Poppins-ExtraLight.ttf": "/codefood/static/media/Poppins-ExtraLight.333cb30c20e31999802a.ttf",
+    "static/media/Poppins-Light.ttf": "/codefood/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Poppins-Regular.ttf": "/codefood/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Medium.ttf": "/codefood/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/codefood/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
+    "static/media/Poppins-Bold.ttf": "/codefood/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/thanks-image.png": "/codefood/static/media/thanks-image.12058850121193c48a61.png",
+    "static/media/feedback-image.png": "/codefood/static/media/feedback-image.4b25e80d8ff1800165ac.png",
+    "static/media/recipe-not-found.png": "/codefood/static/media/recipe-not-found.e3b65be565ce702be2cc.png",
+    "static/media/content-logo.png": "/codefood/static/media/content-logo.e2d369fc5c9d411ff88c.png",
+    "index.html": "/codefood/index.html",
+    "main.696aa3f0.css.map": "/codefood/static/css/main.696aa3f0.css.map",
+    "main.8cc7e443.js.map": "/codefood/static/js/main.8cc7e443.js.map",
+    "787.5e03ebba.chunk.js.map": "/codefood/static/js/787.5e03ebba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.696aa3f0.css",
+    "static/js/main.8cc7e443.js"
+  ]
+}
