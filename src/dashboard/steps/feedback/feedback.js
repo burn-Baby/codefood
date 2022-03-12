@@ -96,6 +96,12 @@ function Feedback() {
         )
     }
 
+    const goToHome = () => {
+        navigate(
+            `/home`
+        )
+    }
+
     return (
         !token ?
             <Navigate to="/"/>
@@ -104,7 +110,7 @@ function Feedback() {
                 <nav className="navbar navbar-dashboard navbar-light sticky-top" styles="background-color: #ffffff;">
                     <div className="navbar-container navbar-container-top">
                         <a className="navbar-brand" href="#">
-                            <img src={header} alt="" className="d-inline-block align-text-top navbar-logo"/>
+                            <img src={header} alt="" className="d-inline-block align-text-top navbar-logo" onClick={goToHome}/>
                         </a>
                     </div>
                 </nav>

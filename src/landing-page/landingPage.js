@@ -58,7 +58,7 @@ function LandingPage() {
                 <nav className="navbar navbar-light" styles="background-color: #ffffff;">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#">
-                            <img src={header} data-cy="header-logo" alt="" className="d-inline-block align-text-top logo"/>
+                            <img src={header} data-cy="header-logo" alt="" className="d-inline-block align-text-top logo" onClick={goToHome}/>
                         </a>
                     </div>
                 </nav>

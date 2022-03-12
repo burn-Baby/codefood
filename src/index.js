@@ -21,7 +21,7 @@ import reportWebVitals from './reportWebVitals';
 
 const rootElement = document.getElementById("root");
 render(
-    <BrowserRouter>
+    <BrowserRouter basename={window.location.pathname || ''}>
         <Routes>
             <Route path="/" element={<LandingPage />}/>
             <Route path="home" element={<Home />} />

@@ -3,10 +3,16 @@ import emoticonhappy from '../../assets/images/emoticon-happy.png';
 import emoticonnormal from '../../assets/images/emoticon-normal.png';
 import emoticonangry from '../../assets/images/emoticon-angry.png';
 import './history.css';
-import {Navigate} from "react-router-dom";
+import {Navigate, useNavigate} from "react-router-dom";
 
 function History() {
+    let navigate = useNavigate();
     let token = localStorage.getItem('token')
+    const goToHome = () => {
+        navigate(
+            `/home`
+        )
+    }
     return (
         !token ?
             <Navigate to="/"/>
@@ -15,7 +21,7 @@ function History() {
                 <nav className="navbar navbar-dashboard navbar-light sticky-top" styles="background-color: #ffffff;">
                     <div className="navbar-container navbar-container-top">
                         <a className="navbar-brand" href="#">
-                            <img src={header} alt="" className="d-inline-block align-text-top navbar-logo"/>
+                            <img src={header} alt="" className="d-inline-block align-text-top navbar-logo" onClick={goToHome}/>
                         </a>
                         <form className="search-bar d-flex">
                             <input className="form-control search-input" type="search" placeholder="Cari Resep"

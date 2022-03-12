@@ -63,7 +63,7 @@ function Home() {
     }
 
     const sortRecipesNameAsc = () => {
-        const data = "sort=" + constant.RECIPE_SORT_NAME_ASC + "&categoryId=" + recipesData[0].recipeCategoryId
+        const data = "sort=" + constant.RECIPE_SORT_NAME_ASC + "&categoryId=" + recipesData[0]?.recipeCategoryId
         homeService.getRecipesByCategory(data).then(response => {
             setRecipesData(recipesData => {
                 return {
@@ -78,7 +78,7 @@ function Home() {
     }
 
     const sortRecipesNameDesc = () => {
-        const data = "sort=" + constant.RECIPE_SORT_NAME_DESC + "&categoryId=" + recipesData[0].recipeCategoryId
+        const data = "sort=" + constant.RECIPE_SORT_NAME_DESC + "&categoryId=" + recipesData[0]?.recipeCategoryId
         homeService.getRecipesByCategory(data).then(response => {
             setRecipesData(recipesData => {
                 return {
@@ -93,7 +93,7 @@ function Home() {
     }
 
     const sortRecipesLike = () => {
-        const data = "sort=" + constant.RECIPE_SORT_LIKE + "&categoryId=" + recipesData[0].recipeCategoryId
+        const data = "sort=" + constant.RECIPE_SORT_LIKE + "&categoryId=" + recipesData[0]?.recipeCategoryI
         homeService.getRecipesByCategory(data).then(response => {
             setRecipesData(recipesData => {
                 return {
@@ -128,6 +128,9 @@ function Home() {
             setModalMessage("Anda belum melakukan login.")
             setShowModal(true)
             setModalSeverity("error")
+            navigate(
+                `/`
+            )
             return
         }
         navigate(
@@ -145,6 +148,12 @@ function Home() {
         setShowModal(false)
     }
 
+    const goToHome = () => {
+        navigate(
+            `/home`
+        )
+    }
+
     return (
         <div>
             <Snackbar open={showModal} autoHideDuration={6000} onClose={handleClose} data-cy="form-alert-container\">
@@ -155,8 +164,7 @@ function Home() {
             <nav className="navbar navbar-dashboard navbar-light sticky-top" styles="background-color: #ffffff;">
                 <div className="navbar-container navbar-container-top">
                     <a className="navbar-brand" href="#">
-                        <img src={header} alt="" className="d-inline-block align-text-top navbar-logo"
-                             data-cy="header-logo"/>
+                        <img src={header} alt="" className="d-inline-block align-text-top navbar-logo" data-cy="header-logo" onClick={goToHome}/>
                     </a>
                     <form className="search-bar d-flex" onSubmit={searchData}>
                         <input className="form-control search-input" type="search" placeholder="Cari Resep"
@@ -202,7 +210,7 @@ function Home() {
                         {recipesData?.recipes?.map((item, i) => (
                             <>
                                 <div className="card card-content recipe-content col-3"
-                                     onClick={() => goToRecipeDetail(item.id)} data-cy={'list-item-' + (i + 1)}>
+                                     onClick={() => goToRecipeDetail(item.id)} data-cy={'list-item-' + (i)}>
                                     <img src={item.image} className="card-img-top card-img-recipe" alt="..."/>
                                     <div className="card-body">
                                         <p className="card-title">{item.name}</p>
