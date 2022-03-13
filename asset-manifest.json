@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/codefood/static/css/main.01bce3f8.css",
-    "main.js": "/codefood/static/js/main.892b49c0.js",
+    "main.css": "/codefood/static/css/main.592ea71e.css",
+    "main.js": "/codefood/static/js/main.620b1987.js",
     "static/js/787.5e03ebba.chunk.js": "/codefood/static/js/787.5e03ebba.chunk.js",
     "static/media/Poppins-ExtraLight.ttf": "/codefood/static/media/Poppins-ExtraLight.333cb30c20e31999802a.ttf",
     "static/media/Poppins-Light.ttf": "/codefood/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
@@ -14,12 +14,12 @@
     "static/media/recipe-not-found.png": "/codefood/static/media/recipe-not-found.e3b65be565ce702be2cc.png",
     "static/media/content-logo.png": "/codefood/static/media/content-logo.e2d369fc5c9d411ff88c.png",
     "index.html": "/codefood/index.html",
-    "main.01bce3f8.css.map": "/codefood/static/css/main.01bce3f8.css.map",
-    "main.892b49c0.js.map": "/codefood/static/js/main.892b49c0.js.map",
+    "main.592ea71e.css.map": "/codefood/static/css/main.592ea71e.css.map",
+    "main.620b1987.js.map": "/codefood/static/js/main.620b1987.js.map",
     "787.5e03ebba.chunk.js.map": "/codefood/static/js/787.5e03ebba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01bce3f8.css",
-    "static/js/main.892b49c0.js"
+    "static/css/main.592ea71e.css",
+    "static/js/main.620b1987.js"
   ]
 }
